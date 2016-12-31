@@ -1,13 +1,22 @@
 # kavenegar-node
 
-Installation
------
-Basic setup
------
-Configuration
------
-Usage
------
+
+# <a href="http://kavenegar.com/rest.html">Kavenegar RESTful API Document</a>
+If you need to future information about API document Please visit RESTful Document
+
+## Installation
+<p>
+First of all, You need to make an account on Kavenegar from <a href="https://panel.kavenegar.com/Client/Membership/Register">Here</a>
+</p>
+<p>
+After that you just need to pick API-KEY up from <a href="http://panel.kavenegar.com/Client/setting/index">My Account</a> section.
+You can download the Node SDK <a href="https://github.com/KaveNegar/kavenegar-node.git">Here</a> or just pull it.
+Anyway there is good tutorial about <a href="http://gun.io/blog/how-to-github-fork-branch-and-pull-request/">Pull  request</a>
+</p>
+## Usage
+
+Well, There is two  example to Send SMS by node below.
+
 ```node
 var Kavenegar = require('./lib/kavenegar');
 var api = Kavenegar.KavenegarApi({
