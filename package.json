@@ -1,0 +1,27 @@
+{
+  "name": "kavenegar",
+  "version": "1.0.0",
+  "description": "Kavenegar Nodejs SDk",
+  "main": "kavenegar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KaveNegar/kavenegar-node.git"
+  },
+  "keywords": [
+    "SMS",
+    "kavenegar",
+    "SDK"
+  ],
+  "author": "Arya sadeghy <Aryasadeghy@gmail.com> (http://yourblog.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KaveNegar/kavenegar-node/issues"
+  },
+ "dependencies":{
+},
+  "homepage": "https://github.com/KaveNegar/kavenegar-node#readme"
+}
+ 
