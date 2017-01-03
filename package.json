@@ -1,6 +1,6 @@
 {
   "name": "kavenegar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Kavenegar Nodejs SDk",
   "main": "kavenegar.js",
   "scripts": {
