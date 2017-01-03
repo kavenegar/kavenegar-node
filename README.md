@@ -13,12 +13,20 @@ After that you just need to pick API-KEY up from <a href="http://panel.kavenegar
 You can download the Node SDK <a href="https://github.com/KaveNegar/kavenegar-node.git">Here</a> or just pull it.
 Anyway there is good tutorial about <a href="http://gun.io/blog/how-to-github-fork-branch-and-pull-request/">Pull  request</a>
 </p>
+<p> For installing Kavenegar  use this command via npm </p>
+```
+npm install kavenegar
+```
+
+<p> If oyudont have npm you easily install it from  [npm website](https://www.npmjs.com/)</p>
+
+
 ## Usage
 
 Well, There is two  example to Send SMS by node below.
 
 ```node
-var Kavenegar = require('./lib/kavenegar');
+var Kavenegar = require('kavenegar');
 var api = Kavenegar.KavenegarApi({
     apikey: ''
 });
@@ -66,7 +74,7 @@ sample output
 */
 ```
 ```node
-var Kavenegar = require('./lib/kavenegar');
+var Kavenegar = require('kavenegar');
 var api = Kavenegar.KavenegarApi({
     apikey: ''
 });
