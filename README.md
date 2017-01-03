@@ -18,7 +18,8 @@ Anyway there is good tutorial about <a href="http://gun.io/blog/how-to-github-fo
 npm install kavenegar
 ```
 
-<p> If oyudont have npm you easily install it from  [npm website](https://www.npmjs.com/)</p>
+
+<p> If you don't have npm you can easily install it from  [npm website](https://www.npmjs.com/)</p>
 
 
 ## Usage
