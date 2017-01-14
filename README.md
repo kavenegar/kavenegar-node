@@ -19,7 +19,7 @@ npm install kavenegar
 ```
 
 
-<p> If you don't have npm you can easily install it from  [npm website](https://www.npmjs.com/)</p>
+If you don't have npm you can easily install it from  [npm website](https://www.npmjs.com/)
 
 
 ## Usage
