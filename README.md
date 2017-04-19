@@ -14,7 +14,8 @@ You can download the Node SDK <a href="https://github.com/KaveNegar/kavenegar-no
 Anyway there is good tutorial about <a href="http://gun.io/blog/how-to-github-fork-branch-and-pull-request/">Pull  request</a>
 </p>
 <p> For installing Kavenegar  use this command via npm </p>
-```
+
+```node
 npm install kavenegar
 ```
 
