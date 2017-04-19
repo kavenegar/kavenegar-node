@@ -29,7 +29,7 @@ Well, There is two  example to Send SMS by node below.
 ```node
 var Kavenegar = require('kavenegar');
 var api = Kavenegar.KavenegarApi({
-    apikey: ''
+    apikey: 'your apikey here'
 });
 api.Send({
         message: "خدمات پیام کوتاه کاوه نگار",
@@ -77,7 +77,7 @@ sample output
 ```node
 var Kavenegar = require('kavenegar');
 var api = Kavenegar.KavenegarApi({
-    apikey: ''
+    apikey: 'your apikey here'
 });
 api.VerifyLookup({
     receptor: "09361234567",
