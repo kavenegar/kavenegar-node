@@ -89,9 +89,7 @@ var querystring = require('querystring');
     KavenegarApi.prototype.CallMakeTTS = function(data, callback) {
         this.request("call", "maketts", data, callback);
     };
-    KavenegarApi.prototype.CallStatus = function(data, callback) {
-        this.request("call", "status", data, callback);
-    };
+   
     module.exports.KavenegarApi = function (options) {
 	var obj = new KavenegarApi(options);
 	return obj;
