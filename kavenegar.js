@@ -1,4 +1,4 @@
-var http = require('http');
+var https = require('https');
 var querystring = require('querystring');
 var KavenegarApi = function(options) {
 	this.options = {};
@@ -7,11 +7,11 @@ var KavenegarApi = function(options) {
 	this.options.apikey = options.apikey;
 };
 KavenegarApi.prototype.request = function(action, method, params, callback) {
-	var path = 'http://' + this.options.host + '/' + this.options.version + '/' + this.options.apikey + '/' + action + '/' + method + '.json';
+	var path = '/' + this.options.version + '/' + this.options.apikey + '/' + action + '/' + method + '.json';
 	var postdata = querystring.stringify(params);
 	var post_options = {
 		host: this.options.host,
-		port: '80',
+		port: '443',
 		path: path,
 		method: 'POST',
 		headers: {
@@ -19,7 +19,7 @@ KavenegarApi.prototype.request = function(action, method, params, callback) {
 			'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
 		}
 	};
-	var req = http.request(post_options, function(e) {
+	var req = https.request(post_options, function(e) {
 		e.setEncoding('utf8');
 		var result = '';
 		e.on('data', function(data) {
