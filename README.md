@@ -25,7 +25,7 @@ If you don't have npm you can easily install it from  [npm website](https://www.
 
 ## Usage
 
-Well, There is two  example to Send SMS by node below.
+Well, There is examples to Send SMS by node below.
 
 Simple Send:
 ```node
