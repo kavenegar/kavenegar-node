@@ -36,7 +36,7 @@ KavenegarApi.prototype.request = function(action, method, params, callback) {
 			} catch (e){
 				console.log('Exception!',e);
 				if(callback){
-					callback([],500,e.message)
+					callback(e.message,500)
 				}
 			}
 		})
