@@ -26,19 +26,22 @@ KavenegarApi.prototype.request = function(action, method, params, callback) {
 			result += data;
 		});
 		e.on('end',function () {
+			var entries, status, message;
 			try {
 				var jsonObject = JSON.parse(result);
-				if (callback) callback(
-					jsonObject.entries,
-					jsonObject.return.status,
-					jsonObject.return.message
-				);
+				if (callback) {
+					entries = jsonObject.entries;
+					status = jsonObject.return.status;
+					message = jsonObject.return.message;
+				}
 			} catch (e){
 				console.log('Exception!',e);
 				if(callback){
 					callback(e.message,500)
 				}
+				return;
 			}
+			if (callback) callback(entries, status, message);
 		})
 	});
 	req.write(postdata, "utf8");
